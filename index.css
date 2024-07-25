@@ -10,18 +10,19 @@ header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1px 0;
 }
 
 header img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 section {
-    padding: 2rem 1rem;
+    padding: 40px 20px;
+    border:2px solid red;
 }
 
 #about, #projects, #resume, #contact {
@@ -30,7 +31,8 @@ section {
 }
 
 .project {
-    margin-bottom: 2rem;
+    margin-bottom: 40px;
+    border:2px solid green;
 }
 
 .project img {
@@ -40,7 +42,7 @@ section {
 
 footer {
     text-align: center;
-    padding: 1rem 0;
+    padding: 10px 0;
     background-color: #333;
     color: #fff;
 }
